@@ -9,6 +9,16 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
+//--------------------------------------------------------------------
+//  Hardware Required:
+//
+//  5.0in 800x480 TFT display - Adafruit (or Aliexpress clone)
+//  Adafruit RA8875 display driver board
+//  Arduino Uno/Mega/Nano
+//  Voltage monitor or divider (board or DIY - required only for battery level monitoring)
+//
+//--------------------------------------------------------------------    
+
 
 //--------------------------------------------------------------------
 //                       Libraries
@@ -20,8 +30,6 @@
 
 
 // RA8875 Library only supports hardware SPI at this time
-
-
 
 // Connect SCK to UNO Digital #13 (Hardware SPI clock)
 // Connect MISO to UNO Digital #12 (Hardware SPI MISO)
